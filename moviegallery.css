@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Ephesis&family=Noto+Sans+Mandaic&family=Oswald:wght@200&family=Teko:wght@300&display=swap');
+.row{
+    height: 500px;
+    /* background-color: gray; */
+    position: relative;
+    width: 70%;
+    left: 200px;
+}
+.col{
+    height: 460px;
+    width: 200px;
+    border: solid 2px;
+    position: absolute;
+    top: 100px;
+    padding: 10px;
+    font-family: 'Dancing Script', cursive;
+    color: lightblue;
+    
+}
+.c1{
+    left: 50px;
+}
+.c2{
+    left: 375px;
+}
+.c3{
+    left: 700px;
+}
+img{
+    height: 150px;
+    width: 100%;
+}
+h2{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+body{
+    background-image: url('./images/film2.jpg');
+    background-size: cover;
+}
+.col:hover{
+    background-color: lightblue;
+    color: black;
+}
+h1{
+    color: lightblue;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    margin-top: 100px;
+}
+li{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: lightblue;
+}
+.col1{
+    height: 25px;
+    width: 100%;
+    border: solid 2px;
+    margin-bottom: 100%;
+}
+.rate{
+    margin-left: 45px;
+}
